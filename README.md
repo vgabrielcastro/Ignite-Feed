@@ -2,11 +2,12 @@
 
 Site desenvolvido na aula de ReactJs do Ignite da Rocketseat!
 
-## Tecnologias
+Tecnologias usadas:
 
-React Js
-Css puro
-Vite
+- React Js
+- Javascript
+- Css puro
+- Vite
 
 # React + Vite
 

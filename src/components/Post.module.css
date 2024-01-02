@@ -10,12 +10,12 @@
 
 .content {
     line-height: 1.6;
-    margin-top: 1.5rem;
     color: var(--gray-300);
+    margin-top: 1.5rem;
 }
 
 .content p {
-    margin: 1rem;
+    margin-top: 1rem;
 }
 
 .content a {
@@ -53,6 +53,7 @@
 
 .authorInfo span {
     display: block;
+    font-size: 0.875rem;
     color: var(--gray-400);
     line-height: 1.6;
 }
@@ -75,7 +76,8 @@
     border: 0;
     resize: none;
     height: 6rem;
-    border-radius: 8px;
+    padding: 1rem;
+    border-radius: 0.25rem;
     color: var(--gray-100);
     line-height: 1.4;
     margin-top: 1rem;
@@ -83,12 +85,12 @@
 
 .commentForm footer {
     visibility: hidden;
-    max-width: 0;
+    max-height: 0;
 }
 
 .commentForm:focus-within footer {
     visibility: visible;
-    max-width: none;
+    max-height: none;
 }
 
 .commentForm button[type="submit"] {
@@ -98,11 +100,12 @@
     border: 0;
     background: var(--green-500);
     color: var(--white);
+    font-weight: bold;
     cursor: pointer;
     transition: background-color 0.1s;
 }
 
-.commentForm button[type="submit"]:hover {
+.commentForm button[type="submit"]:not(:disabled):hover {
     background: var(--green-300);
 }
 
