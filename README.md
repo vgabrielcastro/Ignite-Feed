@@ -1,3 +1,13 @@
+# Ignite Feed
+
+Site desenvolvido na aula de ReactJs do Ignite da Rocketseat!
+
+## Tecnologias
+
+React Js
+Css puro
+Vite
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
