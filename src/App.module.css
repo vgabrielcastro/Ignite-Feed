@@ -4,11 +4,11 @@
     padding: 0 1rem;
     display: grid;
     grid-template-columns: 256px 1fr;
-    grid-gap: 2rem;
+    gap: 2rem;
     align-items: flex-start;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
     html {
         font-size: 87.5%;
     }
